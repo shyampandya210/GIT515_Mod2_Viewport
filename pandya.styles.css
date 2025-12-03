@@ -221,6 +221,7 @@ img{
 
     section{
         background-color: var(--light-gray);
+        color: var(--dark-gray);
     }
 
     #one{
@@ -286,17 +287,20 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
+@media (min-width: 621px) and (max-width: 1379px) {
+    img{
         width: 300px;
         max-width: 300px;
-    } */
+    }
+}
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+@media (min-width: 1800px) {
+    header, footer{
         background-color: var(--orange);
         padding-left: 5%;
     }
@@ -361,5 +365,7 @@ img{
 
     #three p, #four p, #five p, #six p{
         padding-top: 2em;
-    } */
+    }
+}
+
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
