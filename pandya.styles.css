@@ -172,19 +172,21 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    /* header, footer{
+
+@media (max-width: 620px) {
+    header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
 
-    main{
+    main {
         display: grid;
         grid-gap: 0.75em;
         grid-template-columns: 1fr 1fr;
         margin: 1em 0;
     }
 
-    section{
+    section {
         background-color: var(--yellow);
         color: var(--dark-gray);
         margin: 0;
@@ -197,14 +199,18 @@ img{
     img{
         width: 200px;
         max-width: 200px;
-    } */
+    } 
+}
+
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
 
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-    /* header, footer{
+
+@media (min-width: 621px) and (max-width: 1379px) {
+    header, footer{
         background-color: var(--black);
         color: var(--white);
     }   
@@ -229,14 +235,18 @@ img{
     #seven{
         grid-column: 3/4;
         grid-row: 3/5;
-    } */
+    }
+}
+
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
 
 
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+
+@media (min-width: 1380px) {
+    header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
@@ -267,7 +277,9 @@ img{
 
     #seven, #eight{
         grid-row: 3/4;
-    } */
+    }
+}
+
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
 
