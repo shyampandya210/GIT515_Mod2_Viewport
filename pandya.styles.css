@@ -1,7 +1,23 @@
-/* YOUR NAME GOES HERE */
+/* SHYAM PANDYA */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    line-height: 1.5;
+}
 
 
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
